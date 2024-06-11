@@ -22,7 +22,7 @@
   --h1-size: 90px;
   --h2-size: 78px;
   --h3-size: 34px;
-  --p-size: 32px;
+  --p-size: 30px;
   --p-footer-size: 26px;
   --link-go-back: 28px;
   --personal-data-size: 58px;
@@ -183,10 +183,17 @@ button:hover {
 
   font-weight: 500;
 }
+.avatar{
+  padding: 50px 20px 50px 0px;
+}
+.about-text{
+  font-size: var(--p-size);
+}
 .about-me-contact-me-h1 {
   margin-top: 40px;
 }
-.text-container-1 {
+.text-container-1,
+.text-container-2 {
   border-top: 2px solid #c5b358;
   border-bottom: 2px solid #c5b358;
 }
@@ -195,6 +202,13 @@ button:hover {
   text-align: center;
   line-height: 88px;
 }
+.project-images{
+  margin: 50px auto;
+}
+.img-row{
+  margin: 30px auto;
+}
+
 
 .email,
 .phone,
