@@ -122,27 +122,23 @@ p {
   font-weight: 200;
   color: var(--lightgoldenrodyellow-color);
 }
-.buttons {
-  margin: 30px 0px;
-}
-
-button {
-  margin: 0 20px;
-  padding: 15px 40px;
-  border: var(--border);
-  /* border-radius: 10px; */
-  /* background-color: var(--primary-color); */
-  background-color: var(--lightgoldenrodyellow-color);
-}
-button:hover {
-  cursor: pointer;
-  /* background-color: var(--accent-color); */
-  background-color: var(--golden-yellow-color);
+.main-buttons {
+  margin: 30px auto;
 }
 .about-me-button,
+.projects-button,
 .contact-me-button {
   font-weight: 700;
   font-family: "Stardom", sans-serif;
+  background-color: var(--lightgoldenrodyellow-color);
+  margin: 0 20px;
+  padding: 15px 40px;
+  border: var(--border);
+  border-radius: 10px;
+}
+button:hover {
+  cursor: pointer;
+  background-color: var(--golden-yellow-color);
 }
 .footer-information {
   color: var(--khaki-color);
