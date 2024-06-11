@@ -7,7 +7,7 @@
   -webkit-animation: AnimationName 30s ease infinite;
   -moz-animation: AnimationName 30s ease infinite;
   animation: AnimationName 60s ease infinite;
-
+  --just-black: #000;
   --lightgoldenrodyellow-color: #fafad2;
   --palegoldenrod-color: #eee8aa;
   --khaki-color: #f0e68c;
@@ -72,7 +72,7 @@
   height: 5000px;
 
   font-family: "Stardom", sans-serif;
-  background: #000000;
+  background: var(--just-black);
 }
 
 .homepage-container {
@@ -89,7 +89,7 @@ img {
 h1.valentina-rapunzel {
   margin-top: 0px;
   margin-bottom: 10px;
-  color: var(--vegas-gold-color);
+  color: var(--khaki-color);
   font-size: var(--h1-size);
   font-weight: 500;
 }
@@ -97,9 +97,9 @@ h2 {
   color: var(--metallic-gold-color);
   font-size: var(--h2-size);
 }
-h3 {
-  color: var(--clear-white-color);
-  opacity: 0.6;
+.architect {
+  color: var(--vegas-gold-color);
+  opacity: 0.9;
   font-size: var(--h3-size);
   margin: 20px 0px;
   text-align: center;
@@ -145,8 +145,17 @@ button:hover {
   font-family: "Stardom", sans-serif;
 }
 .footer-information {
+  color: var(--khaki-color);
+  opacity: 0.7;
+  margin-top: 20px;
   text-align: center;
   font-size: var(--p-footer-size);
+}
+.footer-links {
+  color: var(--metallic-gold-color);
+}
+.footer-links:hover {
+  color: var(--khaki-color);
 }
 /* ABOUT ME  */
 /* ABOUT ME  */
@@ -162,6 +171,9 @@ button:hover {
   font-size: var(--link-go-back);
   text-decoration: underline;
   font-weight: 400;
+}
+.go-back-link-first:hover {
+  color: var(--lightgoldenrodyellow-color);
 }
 .about-me-container {
   margin: 50px 150px;
@@ -196,6 +208,7 @@ button:hover {
   font-weight: 400;
   display: block;
   margin: 20px auto;
+  text-decoration: none;
 }
 .email:hover,
 .phone:hover,
@@ -213,4 +226,7 @@ button:hover {
   font-size: var(--link-go-back);
   text-decoration: underline;
   font-weight: 400;
+}
+.go-back-link-second:hover {
+  color: var(--lightgoldenrodyellow-color);
 }
