@@ -154,6 +154,7 @@ button:hover {
   margin: 50px 150px;
 }
 .about-me-h1,
+.projects-h1,
 .about-me-contact-me-h1 {
   text-align: center;
   color: var(--clear-white-color);
