@@ -1,7 +1,7 @@
 /* Palette  */
 :root {
   /* GOLD version  */
-  --gradient: linear-gradient(5deg, #000000, #202020);
+  --gradient: linear-gradient(5deg, #f0e68c, #c5b358);
   background-size: 400% 400%;
 
   -webkit-animation: AnimationName 30s ease infinite;
@@ -28,43 +28,19 @@
   --personal-data-size: 58px;
   --border: 1px solid #cd853f;
 }
-
 /* ANIMATION  */
-
-@-webkit-keyframes AnimationName {
+/* Define the animation */
+@keyframes color-change {
   0% {
-    background-position: 0% 79%;
-  }
+    color: #eee8aa;
+  } /* Start color */
   50% {
-    background-position: 100% 22%;
-  }
+    color: #f0e68c;
+  } /* Middle color */
   100% {
-    background-position: 0% 79%;
-  }
+    color: #c5b358;
+  } /* End color */
 }
-@-moz-keyframes AnimationName {
-  0% {
-    background-position: 0% 79%;
-  }
-  50% {
-    background-position: 100% 22%;
-  }
-  100% {
-    background-position: 0% 79%;
-  }
-}
-@keyframes AnimationName {
-  0% {
-    background-position: 0% 79%;
-  }
-  50% {
-    background-position: 100% 22%;
-  }
-  100% {
-    background-position: 0% 79%;
-  }
-}
-
 /* ANIMATION  */
 
 .body {
@@ -86,13 +62,15 @@ img {
   margin: 0 auto;
 }
 
-h1.valentina-rapunzel {
+h1.valentina {
   margin-top: 0px;
   margin-bottom: 0px;
-  color: var(--khaki-color);
+  animation: color-change 5s ease infinite;
+  /* color: var(--khaki-color); */
   font-size: var(--h1-size);
   font-weight: 500;
 }
+
 h2 {
   color: var(--metallic-gold-color);
   font-size: var(--h2-size);
@@ -139,6 +117,7 @@ p {
 button:hover {
   cursor: pointer;
   background-color: var(--golden-yellow-color);
+  transition: 200ms ease-in-out;
 }
 .footer-information {
   color: var(--khaki-color);
@@ -183,11 +162,16 @@ button:hover {
 
   font-weight: 500;
 }
-.avatar{
+.avatar {
   padding: 50px 20px 50px 0px;
 }
-.about-text{
+.about-text {
   font-size: var(--p-size);
+  font-weight: 300;
+  line-height: 1.5;
+}
+strong {
+  color: var(--metallic-gold-color);
 }
 .about-me-contact-me-h1 {
   margin-top: 40px;
@@ -202,13 +186,12 @@ button:hover {
   text-align: center;
   line-height: 88px;
 }
-.project-images{
+.project-images {
   margin: 50px auto;
 }
-.img-row{
+.img-row {
   margin: 30px auto;
 }
-
 
 .email,
 .phone,
