@@ -1,0 +1,216 @@
+/* Palette  */
+:root {
+  /* GOLD version  */
+  --gradient: linear-gradient(5deg, #000000, #202020);
+  background-size: 400% 400%;
+
+  -webkit-animation: AnimationName 30s ease infinite;
+  -moz-animation: AnimationName 30s ease infinite;
+  animation: AnimationName 60s ease infinite;
+
+  --lightgoldenrodyellow-color: #fafad2;
+  --palegoldenrod-color: #eee8aa;
+  --khaki-color: #f0e68c;
+  --vegas-gold-color: #c5b358;
+  --golden-yellow-color: #ffdf00;
+  --metallic-gold-color: #d4af37;
+  --peru-color: #cd853f;
+  --dark-brown-color: #0d0b01;
+  --clear-white-color: #fff;
+  --contrast-color: #120600;
+
+  --h1-size: 90px;
+  --h2-size: 78px;
+  --h3-size: 34px;
+  --p-size: 32px;
+  --p-footer-size: 26px;
+  --link-go-back: 28px;
+  --personal-data-size: 58px;
+  --border: 1px solid #cd853f;
+}
+
+/* ANIMATION  */
+
+@-webkit-keyframes AnimationName {
+  0% {
+    background-position: 0% 79%;
+  }
+  50% {
+    background-position: 100% 22%;
+  }
+  100% {
+    background-position: 0% 79%;
+  }
+}
+@-moz-keyframes AnimationName {
+  0% {
+    background-position: 0% 79%;
+  }
+  50% {
+    background-position: 100% 22%;
+  }
+  100% {
+    background-position: 0% 79%;
+  }
+}
+@keyframes AnimationName {
+  0% {
+    background-position: 0% 79%;
+  }
+  50% {
+    background-position: 100% 22%;
+  }
+  100% {
+    background-position: 0% 79%;
+  }
+}
+
+/* ANIMATION  */
+
+.body {
+  margin: 0;
+  height: 5000px;
+
+  font-family: "Stardom", sans-serif;
+  background: #000000;
+}
+
+.homepage-container {
+  margin: 50px 150px;
+  margin-top: 0;
+}
+header {
+  text-align: center;
+}
+img {
+  margin: 0 auto;
+}
+
+h1.valentina-rapunzel {
+  margin-top: 0px;
+  margin-bottom: 10px;
+  color: var(--vegas-gold-color);
+  font-size: var(--h1-size);
+  font-weight: 500;
+}
+h2 {
+  color: var(--metallic-gold-color);
+  font-size: var(--h2-size);
+}
+h3 {
+  color: var(--clear-white-color);
+  opacity: 0.6;
+  font-size: var(--h3-size);
+  margin: 20px 0px;
+  text-align: center;
+  font-weight: 500;
+}
+.button-link {
+  color: #120701;
+}
+h4 {
+  color: var(--khaki-color);
+}
+a {
+  font-family: "Stardom", sans-serif;
+  color: var(--metallic-gold-color);
+  font-weight: bold;
+  text-decoration: none;
+}
+p {
+  font-size: var(--p-size);
+  font-weight: 200;
+  color: var(--lightgoldenrodyellow-color);
+}
+.buttons {
+  margin: 30px 0px;
+}
+
+button {
+  margin: 0 20px;
+  padding: 15px 40px;
+  border: var(--border);
+  /* border-radius: 10px; */
+  /* background-color: var(--primary-color); */
+  background-color: var(--lightgoldenrodyellow-color);
+}
+button:hover {
+  cursor: pointer;
+  /* background-color: var(--accent-color); */
+  background-color: var(--golden-yellow-color);
+}
+.about-me-button,
+.contact-me-button {
+  font-weight: 700;
+  font-family: "Stardom", sans-serif;
+}
+.footer-information {
+  text-align: center;
+  font-size: var(--p-footer-size);
+}
+/* ABOUT ME  */
+/* ABOUT ME  */
+/* ABOUT ME  */
+/* ABOUT ME  */
+/* ABOUT ME  */
+/* ABOUT ME  */
+/* ABOUT ME  */
+/* ABOUT ME  */
+
+.go-back-link-first {
+  color: var(--metallic-gold-color);
+  font-size: var(--link-go-back);
+  text-decoration: underline;
+  font-weight: 400;
+}
+.about-me-container {
+  margin: 50px 150px;
+}
+.about-me-h1,
+.about-me-contact-me-h1 {
+  text-align: center;
+  color: var(--clear-white-color);
+  font-size: var(--h2-size);
+  margin: 20px 0px;
+
+  font-weight: 500;
+}
+.about-me-contact-me-h1 {
+  margin-top: 40px;
+}
+.text-container-1 {
+  border-top: 2px solid #c5b358;
+  border-bottom: 2px solid #c5b358;
+}
+
+.about-me-contact-section {
+  text-align: center;
+  line-height: 88px;
+}
+
+.email,
+.phone,
+.instagram {
+  color: var(--khaki-color);
+  font-size: var(--personal-data-size);
+  font-weight: 400;
+  display: block;
+  margin: 20px auto;
+}
+.email:hover,
+.phone:hover,
+.instagram:hover {
+  cursor: pointer;
+  color: var(--golden-yellow-color);
+}
+.go-back-section {
+  margin-top: 40px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.go-back-link-second {
+  color: var(--metallic-gold-color);
+  font-size: var(--link-go-back);
+  text-decoration: underline;
+  font-weight: 400;
+}
