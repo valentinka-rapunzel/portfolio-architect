@@ -44,17 +44,11 @@
 /* ANIMATION  */
 
 .body {
-  margin: 0;
-  height: 5000px;
-
   font-family: "Stardom", sans-serif;
   background: var(--just-black);
 }
 
-.homepage-container {
-  margin: 50px 150px;
-  margin-top: 0;
-}
+
 header {
   text-align: center;
 }
@@ -108,9 +102,9 @@ p {
 .contact-me-button {
   font-weight: 700;
   font-family: "Stardom", sans-serif;
-  background-color: var(--lightgoldenrodyellow-color);
+  background-color: var(--vegas-gold-color);
   margin: 0 20px;
-  padding: 15px 40px;
+  padding: 15px 30px;
   border: var(--border);
   border-radius: 5px;
 }
@@ -224,6 +218,13 @@ strong {
   color: var(--lightgoldenrodyellow-color);
 }
 @media (max-width: 900px) {
+  h1.valentina{
+    font-size: 80px;
+
+  }
+  .footer-information{
+    font-size: 14px;
+  }
   .about-me-contact-section {
     line-height: 40px;
   }
