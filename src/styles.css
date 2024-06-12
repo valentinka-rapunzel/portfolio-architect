@@ -182,13 +182,10 @@ strong {
 
 .about-me-contact-section {
   text-align: center;
-  line-height: 88px;
+  line-height: 80px;
 }
 .project-images {
   margin: 50px auto;
-}
-.img-row {
-  margin: 30px auto;
 }
 
 .email,
@@ -225,4 +222,19 @@ strong {
 }
 .go-back-link-second:hover {
   color: var(--lightgoldenrodyellow-color);
+}
+@media (max-width: 900px) {
+  .about-me-contact-section {
+    line-height: 40px;
+  }
+  .phone,
+  .email {
+    font-size: 30px;
+  }
+  .instagram,
+  .linkedin,
+  .facebook,
+  .youtube {
+    font-size: 18px;
+  }
 }
