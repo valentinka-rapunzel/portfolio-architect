@@ -47,7 +47,9 @@
   font-family: "Stardom", sans-serif;
   background: var(--just-black);
 }
-
+.home-container {
+  margin: 50px 150px;
+}
 
 header {
   text-align: center;
