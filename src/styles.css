@@ -252,6 +252,9 @@ strong {
     padding: 0px 10px;
     padding-bottom: 20px;
   }
+  .about-me-contact-me-h2 {
+    font-size: 68px;
+  }
   .footer-information {
     font-size: 14px;
   }
@@ -261,9 +264,16 @@ strong {
   .contact-icon {
     width: 30px;
   }
-  .phone,
-  .email {
+  .phone {
     font-size: 26px;
-    padding: 0px 20px;
+    padding: 0px 10px;
+  }
+  .email {
+    font-size: 20px;
+    padding: 0px 10px;
+  }
+  .rights {
+    margin-top: 10px;
+    font-size: 10px;
   }
 }
