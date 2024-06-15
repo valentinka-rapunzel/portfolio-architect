@@ -206,6 +206,9 @@ strong {
   cursor: pointer;
   color: var(--golden-yellow-color);
 }
+/* .contact-icon {
+  color: var(--golden-yellow-color);
+} */
 .go-back-section {
   margin: 40px auto;
   text-align: center;
@@ -220,11 +223,10 @@ strong {
   color: var(--lightgoldenrodyellow-color);
 }
 @media (max-width: 900px) {
-  h1.valentina{
+  h1.valentina {
     font-size: 80px;
-
   }
-  .footer-information{
+  .footer-information {
     font-size: 14px;
   }
   .about-me-contact-section {
