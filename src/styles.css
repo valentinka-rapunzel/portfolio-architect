@@ -264,6 +264,9 @@ strong {
   .contact-icon {
     width: 30px;
   }
+  .email-icon,.phone-icon {
+    width: 20px;
+  }
   .phone {
     font-size: 26px;
     padding: 0px 10px;
