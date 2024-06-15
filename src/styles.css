@@ -147,7 +147,7 @@ button:hover {
   color: var(--lightgoldenrodyellow-color);
 }
 .about-me-container {
-  margin: 50px 150px;
+  margin: 30px 150px;
 }
 .about-me-h2,
 .projects-h2,
@@ -160,7 +160,7 @@ button:hover {
 }
 
 .avatar {
-  padding: 50px 20px 50px 0px;
+  padding: 30px 20px 30px 20px;
 }
 .about-text {
   font-size: var(--p-size);
@@ -180,10 +180,12 @@ strong {
   text-align: center;
   line-height: 80px;
 }
-.project-images {
+/* .project-images {
   margin: 50px auto;
+} */
+.contact-icon{
+  width: 50px;
 }
-
 .email,
 .phone,
 .instagram,
@@ -206,9 +208,7 @@ strong {
   cursor: pointer;
   color: var(--golden-yellow-color);
 }
-/* .contact-icon {
-  color: var(--golden-yellow-color);
-} */
+
 .go-back-section {
   margin: 40px auto;
   text-align: center;
@@ -223,8 +223,20 @@ strong {
   color: var(--lightgoldenrodyellow-color);
 }
 @media (max-width: 900px) {
+  .go-back-link-first,
+  .go-back-link-second{
+    font-size: 14px;
+  }
+  .go-back-section{
+    margin: 10px 0px;
+  }
   h1.valentina {
     font-size: 80px;
+  }
+  .about-text {
+    font-size: 18px;
+    padding: 0px 20px;
+    padding-bottom: 20px;
   }
   .footer-information {
     font-size: 14px;
@@ -234,12 +246,7 @@ strong {
   }
   .phone,
   .email {
-    font-size: 30px;
-  }
-  .instagram,
-  .linkedin,
-  .facebook,
-  .youtube {
-    font-size: 18px;
+    font-size: 26px;
+    padding: 0px 20px;
   }
 }
