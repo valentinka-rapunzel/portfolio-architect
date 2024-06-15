@@ -227,11 +227,14 @@ strong {
 }
 .logo {
   text-align: left;
+  margin: 0px;
 }
 .rights {
   color: var(--khaki-color);
   opacity: 0.7;
   font-size: var(--p-footer-size);
+  margin: 0px;
+  margin-top: 20px;
 }
 @media (max-width: 900px) {
   .go-back-link-first,
