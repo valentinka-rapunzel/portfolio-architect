@@ -222,6 +222,14 @@ strong {
 .go-back-link-second:hover {
   color: var(--lightgoldenrodyellow-color);
 }
+.logo{
+  text-align: left;
+}
+.rights{
+  color: var(--khaki-color);
+  opacity: 0.7;
+  font-size: var(--p-footer-size);
+}
 @media (max-width: 900px) {
   .go-back-link-first,
   .go-back-link-second {
