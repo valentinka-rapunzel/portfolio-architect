@@ -105,6 +105,7 @@ p {
   font-weight: 700;
   font-family: "Stardom", sans-serif;
   background-color: var(--vegas-gold-color);
+  color: #000;
   margin: 0 20px;
   padding: 15px 30px;
   border: var(--border);
@@ -231,6 +232,7 @@ strong {
   font-size: var(--p-footer-size);
 }
 @media (max-width: 900px) {
+  
   .go-back-link-first,
   .go-back-link-second {
     font-size: 14px;
