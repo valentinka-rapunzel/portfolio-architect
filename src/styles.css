@@ -151,7 +151,7 @@ p {
   color: var(--lightgoldenrodyellow-color);
 }
 .about-me-container {
-  margin: 30px 150px;
+  margin: 30px auto;
 }
 .about-me-h2,
 .projects-h2,
@@ -159,8 +159,15 @@ p {
   text-align: center;
   color: var(--clear-white-color);
   font-size: var(--h2-size);
-  margin: 20px 0px;
+  margin: 20px auto;
   font-weight: 500;
+}
+.projects-h2
+{
+  margin: 30px auto;
+}
+.about-me-contact-me-h2{
+  margin-top: 60px;
 }
 
 .avatar {
