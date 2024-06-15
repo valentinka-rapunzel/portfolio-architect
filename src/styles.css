@@ -32,10 +32,10 @@
 /* Define the animation */
 @keyframes color-change {
   0% {
-    color: #eee8aa;
+    color:#fff;
   } /* Start color */
   50% {
-    color: #f0e68c;
+    color:#fafad2;
   } /* Middle color */
   100% {
     color: #c5b358;
@@ -105,18 +105,19 @@ p {
 .contact-me-button {
   font-weight: 700;
   font-family: "Stardom", sans-serif;
-  background-color: var(--vegas-gold-color);
-  color: #000;
+  background-color: var(--just-black);
+  color:#fff;
   margin: 0 20px;
   padding: 15px 30px;
-  border: var(--border);
-  border-radius: 5px;
+  /* border: var(--border); */
+  /* border-radius: 5px; */
 }
 .about-me-button:hover,
 .projects-button:hover,
 .contact-me-button:hover {
   cursor: pointer;
   background-color: var(--golden-yellow-color);
+  color: #000;
   transition: 200ms ease-in-out;
 }
 .footer-information {
@@ -162,11 +163,10 @@ p {
   margin: 20px auto;
   font-weight: 500;
 }
-.projects-h2
-{
+.projects-h2 {
   margin: 30px auto;
 }
-.about-me-contact-me-h2{
+.about-me-contact-me-h2 {
   margin-top: 60px;
 }
 
@@ -252,13 +252,13 @@ strong {
   .go-back-section {
     margin: 10px 0px;
   }
-  .main-logo{
+  .main-logo {
     width: 50;
   }
   h1.valentina {
     font-size: 64px;
   }
-  .architect{
+  .architect {
     font-size: 28px;
   }
   .about-text {
