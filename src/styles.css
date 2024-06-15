@@ -48,7 +48,8 @@
   background: var(--just-black);
 }
 .home-container {
-  margin: 50px 150px;
+  margin-top: 0px;
+  margin-bottom: 50px;
 }
 
 header {
@@ -244,8 +245,14 @@ strong {
   .go-back-section {
     margin: 10px 0px;
   }
+  .main-logo{
+    width: 50;
+  }
   h1.valentina {
-    font-size: 80px;
+    font-size: 64px;
+  }
+  .architect{
+    font-size: 28px;
   }
   .about-text {
     font-size: 24px;
@@ -264,7 +271,8 @@ strong {
   .contact-icon {
     width: 30px;
   }
-  .email-icon,.phone-icon {
+  .email-icon,
+  .phone-icon {
     width: 20px;
   }
   .phone {
