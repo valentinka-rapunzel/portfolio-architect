@@ -183,7 +183,7 @@ strong {
 /* .project-images {
   margin: 50px auto;
 } */
-.contact-icon{
+.contact-icon {
   width: 50px;
 }
 .email,
@@ -224,17 +224,17 @@ strong {
 }
 @media (max-width: 900px) {
   .go-back-link-first,
-  .go-back-link-second{
+  .go-back-link-second {
     font-size: 14px;
   }
-  .go-back-section{
+  .go-back-section {
     margin: 10px 0px;
   }
   h1.valentina {
     font-size: 80px;
   }
   .about-text {
-    font-size: 18px;
+    font-size: 24px;
     padding: 0px 20px;
     padding-bottom: 20px;
   }
@@ -243,6 +243,9 @@ strong {
   }
   .about-me-contact-section {
     line-height: 40px;
+  }
+  .contact-icon {
+    width: 30px;
   }
   .phone,
   .email {
