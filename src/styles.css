@@ -194,15 +194,15 @@ strong {
 /* .project-images {
   margin: 50px auto;
 } */
-.contact-icon {
-  width: 50px;
-}
+.location,
 .email,
 .phone,
 .instagram,
 .facebook,
 .linkedin,
 .youtube {
+  font-size: 30px;
+  opacity: 0.5;
   color: var(--khaki-color);
   font-size: var(--personal-data-size);
   font-weight: 400;
@@ -210,6 +210,7 @@ strong {
   margin: 20px auto;
   text-decoration: none;
 }
+.location:hover,
 .email:hover,
 .phone:hover,
 .instagram:hover,
@@ -275,14 +276,16 @@ strong {
   .about-me-contact-section {
     line-height: 40px;
   }
-  .contact-icon {
-    width: 30px;
-  }
+  .location-icon,
   .email-icon,
   .phone-icon {
     width: 20px;
   }
   .phone {
+    font-size: 26px;
+    padding: 0px 10px;
+  }
+  .location {
     font-size: 26px;
     padding: 0px 10px;
   }
