@@ -262,6 +262,9 @@ strong {
   .architect {
     font-size: 20px;
   }
+  .main-buttons {
+  margin: 40px auto;
+}
   .about-text {
     font-size: 24px;
     padding: 0px 10px;
