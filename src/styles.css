@@ -257,14 +257,14 @@ strong {
     width: 200px;
   }
   h1.valentina {
-    font-size: 56px;
+    font-size: 58px;
   }
   .architect {
-    font-size: 24px;
+    font-size: 28px;
   }
   .main-buttons {
-  margin: 40px auto;
-}
+    margin: 40px auto;
+  }
   .about-text {
     font-size: 24px;
     padding: 0px 10px;
